@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:xoxo_game/app/model/player_model.dart';
 
 class RoomDataProvider extends ChangeNotifier {
-List<String> _displayElement = ['', '', '', '', '', '', '', '', ''];
+final List<String> _displayElement = ['', '', '', '', '', '', '', '', ''];
  Map<String, dynamic> _roomData = {};
  int _filledBoxes = 0;
 

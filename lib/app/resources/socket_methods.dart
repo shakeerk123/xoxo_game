@@ -5,7 +5,7 @@ import 'package:xoxo_game/app/controller/player_model_provider.dart';
 import 'package:xoxo_game/app/resources/game_methods.dart';
 import 'package:xoxo_game/app/resources/socket_client.dart';
 import 'package:xoxo_game/app/view/game_screen.dart';
-import 'package:xoxo_game/utils/snack_bar.dart';
+import 'package:xoxo_game/utils/widgets/snack_bar.dart';
 
 class SocketMethods {
   final _socketClient = SocketClient.instance.socket!;

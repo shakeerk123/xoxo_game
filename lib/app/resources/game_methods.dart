@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:socket_io_client/socket_io_client.dart';
 import 'package:xoxo_game/app/controller/player_model_provider.dart';
-import 'package:xoxo_game/utils/snack_bar.dart';
+import 'package:xoxo_game/utils/widgets/snack_bar.dart';
 
 class GameMethods {
   void checkWinner(BuildContext context, Socket socketClent) {
